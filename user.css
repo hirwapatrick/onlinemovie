@@ -1,0 +1,62 @@
+body {
+  font-family: sans-serif;
+  height: 100%;
+}
+
+
+.jumbotron {
+  position: inherit;
+  margin-top: 7%;
+
+}
+
+.jumbotron h1 {
+  color: black;
+  font-weight: bold;
+
+}
+
+
+
+
+
+.container-fluid {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/back.jpg);
+  height: 150vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
+.signupbutton {
+
+  text-align: center;
+}
+
+.row img {
+  height: 60px;
+  width: 60px;
+  margin-left: 40%;
+  margin-bottom: 20%;
+}
+
+footer {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+footer a {
+  color: #f0a500;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

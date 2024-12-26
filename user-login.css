@@ -1,0 +1,37 @@
+body{
+  font-family: sans-serif;
+  height: 100%;
+}
+
+.jumbotron{
+  position: sticky;
+  margin-top: 7%;
+
+}
+.loginbutton{
+  text-align: center;
+  align-items: center;
+}
+.jumbotron h1{
+  color: black;
+  font-weight: bold;
+
+}
+.container-fluid{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.7)),url(images/back.jpg);
+  height: 130vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.row img{
+  height: 60px;
+  width: 60px;
+  margin-left: 40%;
+  margin-bottom: 20%;
+}
+.page-footer{
+  background-color: black;
+  color: white;
+}
